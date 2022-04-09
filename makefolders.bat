@@ -8,7 +8,7 @@ if not exist "%year%" (
 	md "%year%"
 	md "%year%\01-Janeiro"
 	md "%year%\02-Fevereiro"
-	md "%year%\03-MarÃ§o"
+	md "%year%\03-Março"
 	md "%year%\04-Abril"
 	md "%year%\05-Maio"
 	md "%year%\05-Junho"
@@ -20,6 +20,7 @@ if not exist "%year%" (
 	md "%year%\12-Dezembro"
 	echo "Pastas criadas"
 ) else (
-	echo "A pasta %year% jÃ¡ existe"
+	echo "A pasta %year% já existe"
 )
+echo year: %year%
 pause
