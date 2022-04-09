@@ -18,8 +18,8 @@ if not exist "%year%" (
 	md "%year%\09-Outubro"
 	md "%year%\11-Novembro"
 	md "%year%\12-Dezembro"
-	echo "Pastas criadas"
+	echo Pastas criadas
 ) else (
+	echo A pasta "%year%" já existe
 )
-echo year: %year%
 pause
