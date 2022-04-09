@@ -22,5 +22,4 @@ if not exist "%year%" (
 ) else (
 	echo "A pasta %year% já existe"
 )
-echo year: %year%
 pause
